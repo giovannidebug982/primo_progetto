@@ -13,3 +13,5 @@ def es_if(request):
     }
     return render(request,"es_if.html", context)
 
+def if_else_elif(request):
+    return render(request,"if_else_elif.html")
