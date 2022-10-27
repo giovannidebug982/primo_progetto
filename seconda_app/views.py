@@ -34,3 +34,6 @@ def es_for(request):
         'list2' : [1, datetime.date(2019,7,16), 'do not give up!']
     }
     return render(request,"es_for.html", context)
+
+def index_secondo(request):
+    return render(request,"index_secondo.html")
